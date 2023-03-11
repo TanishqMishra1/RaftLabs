@@ -1,0 +1,32 @@
+{
+  "name": "node_rest_api_jwt",
+  "version": "1.0.0",
+  "description": "Build REST API with nodejs, express, mongodb and jwt",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "REST",
+    "API",
+    "Mongodb"
+  ],
+  "author": "Tanishq Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.16",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0"
+  }
+}
